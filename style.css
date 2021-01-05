@@ -73,3 +73,17 @@ body{
         a:visited{
             color: white;
         }
+
+@media only screen and (max-width: 992px)
+{
+    form{
+        display: flex;
+        justify-content: center;
+
+        padding: 10px;
+    }
+
+        #name{
+            margin-right: 5px;
+        }
+}
